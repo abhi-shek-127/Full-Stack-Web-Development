@@ -1,0 +1,51 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "React: Start Week 7 Components (Vite)",
+      "type": "shell",
+      "command": "npm.cmd run dev",
+      "options": {
+        "cwd": "${workspaceFolder}/Records/week_7/components"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "React: Start Practice My-React-App (Vite)",
+      "type": "shell",
+      "command": "npm.cmd run dev",
+      "options": {
+        "cwd": "${workspaceFolder}/Practice/ReactJS/my-react-app"
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Node: Run Active File",
+      "type": "shell",
+      "command": "node \"${file}\"",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Python: Run Active File",
+      "type": "shell",
+      "command": "python \"${file}\"",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}

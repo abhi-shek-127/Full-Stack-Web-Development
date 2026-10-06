@@ -1,0 +1,20 @@
+{
+  "name": "abhi-fs-final-workspace",
+  "version": "1.0.0",
+  "description": "Full Stack Lab Workspace",
+  "scripts": {
+    "dev": "npm --prefix Records/week_7/components run dev",
+    "dev:components": "npm --prefix Records/week_7/components run dev",
+    "dev:practice": "npm --prefix Practice/ReactJS/my-react-app run dev",
+    "build:components": "npm --prefix Records/week_7/components run build",
+    "build:practice": "npm --prefix Practice/ReactJS/my-react-app run build",
+    "start:assignment2": "node Assignments/Assignment_2/app.js",
+    "start:assignment2-demo": "node Assignments/Assignment_2/app.js --demo",
+    "start:library": "node Records/week_6/library.js",
+    "start:student-server": "node Observation/Task_5/PBL-3/student-server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^6.14.0"
+  }
+}

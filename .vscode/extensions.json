@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "formulahendry.code-runner",
+    "ritwickdey.liveserver",
+    "ms-python.python",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "mongodb.mongodb-vscode"
+  ]
+}

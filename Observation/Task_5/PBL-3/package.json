@@ -1,0 +1,12 @@
+{
+  "name": "pbl-3-student-server",
+  "version": "1.0.0",
+  "description": "Express.js Student Server",
+  "main": "student-server.js",
+  "scripts": {
+    "start": "node student-server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

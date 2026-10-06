@@ -1,0 +1,13 @@
+{
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": false,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "python": "python -u"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.port": 5500,
+  "terminal.integrated.defaultProfile.windows": "PowerShell"
+}

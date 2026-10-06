@@ -1,0 +1,70 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Node.js: Run Current File",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "python",
+      "request": "launch",
+      "name": "Python: Run Current File",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Assignment 2: Student DB System (Demo)",
+      "program": "${workspaceFolder}/Assignments/Assignment_2/app.js",
+      "args": ["--demo"],
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Assignment 2: Student DB System (Interactive)",
+      "program": "${workspaceFolder}/Assignments/Assignment_2/app.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Week 6: Digital Library Server",
+      "program": "${workspaceFolder}/Records/week_6/library.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Observation Task 5: Student Server",
+      "program": "${workspaceFolder}/Observation/Task_5/PBL-3/student-server.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Observation Task 6: Express PBL-7",
+      "program": "${workspaceFolder}/Observation/Task_6/PBL-7/npm.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Observation Task 6: Middleware PBL-8",
+      "program": "${workspaceFolder}/Observation/Task_6/PBL-8/middleware.js",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Practice: ExpressJS Server",
+      "program": "${workspaceFolder}/Practice/ExpressJS/server.js",
+      "console": "integratedTerminal"
+    }
+  ]
+}
